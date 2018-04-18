@@ -2,9 +2,9 @@
 ```
 .
 +--/css/
-|	+--style.css
+|    +--style.css
 +--/js/
-|	+--main.js
+|    +--main.js
 +--index.html
 
 ```
