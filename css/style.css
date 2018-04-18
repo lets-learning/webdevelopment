@@ -1,0 +1,40 @@
+.border {
+    border: 1px solid;
+}
+
+.border-radius {
+    border-radius: 3px
+}
+
+.gray-bg {
+    background: gray;
+}
+
+.bule-bg {
+    background: lightblue;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.width-100 {
+    width: 100px;
+}
+
+.width-300 {
+    width: 300px;
+}
+
+.margin-auto {
+    margin: auto;
+}
+
+.input {
+    border-radius: 5px;
+    border: 1px solid #5278ce;
+}
