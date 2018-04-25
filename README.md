@@ -25,3 +25,36 @@ plugin
 	* margin
 	* text-align
 	
+---	
+# week 2
+
+#### summary
+* JavaScript
+	* variable : var x = 1; var y = 2;
+		* boolean: true false
+		* string:  ""
+		* int: 999
+	* Comparison Operators: ==,  !=,  &&,  ||
+	* return
+	* function: 
+	```
+	function FunctionName(a, b)
+	{
+		return
+	}
+	```   
+	* onsubmit
+	```
+	<form onsubmit="event.preventDefault(); FunctionName();">
+		HTML code here
+	</form>
+	```
+* developer tool
+	* debug
+		* Sources
+		* folder
+		* Resume, Next Step
+	* console
+		* console.log()
+
+

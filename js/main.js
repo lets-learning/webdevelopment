@@ -23,9 +23,11 @@ function confirmForm() {
     if (x == true) {
         alert("success")
         console.log("ccc");
+
     } else {
         alert("check your password")
         console.log("check your password");
+
     }
 
 }
