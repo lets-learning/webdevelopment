@@ -1,22 +1,17 @@
-<!DOCTYPE HTML>
-<!-- set page language to english-US and HTML documents displayed left-to-right -->
-<html lang="en-US" dir="ltr">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-
-    <link rel="stylesheet" href="css/style.css">
-
 </head>
 
 <body>
-    <form action="home.html" class="width-300 margin-auto">
+    <form id="signupForm" onsubmit="event.preventDefault(); confirmForm();" class="width-300 margin-auto">
         <div class="">
-            <label for="username">username</label>
-            <input class="input" id="username" type="text" placeholder="username">
+            <label for="email">Email</label>
+            <input class="input" id="email" type="text" placeholder="email">
 
         </div>
 
@@ -26,10 +21,10 @@
             <input class="input" id="password" type="password" placeholder="password">
         </div>
 
-
         <div class="">
-            <label for="rememberme">remember me</label>
-            <input id="rememberme" type="checkbox">
+
+            <label for="re-password">repeat password</label>
+            <input class="input" id="re-password" type="password" placeholder="password">
         </div>
 
         <div>
@@ -38,9 +33,6 @@
 
 
     </form>
-
-
-
     <script src="js/main.js"></script>
 </body>
 
